@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Brody\\Desktop\\Brody TAFE\\TAFE Diploma\\Programming\\Visual Studio\\ContactAPI\\ContactAPI\\ContactAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Brody\\Desktop\\Brody TAFE\\TAFE Diploma\\Programming\\Visual Studio\\ContactAPI\\ContactAPI\\ContactAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Brody\\Desktop\\Brody TAFE\\TAFE Diploma\\Programming\\Visual Studio\\ContactAPI\\ContactAPI\\ContactAPI.csproj",
+        "projectName": "ContactAPI",
+        "projectPath": "C:\\Users\\Brody\\Desktop\\Brody TAFE\\TAFE Diploma\\Programming\\Visual Studio\\ContactAPI\\ContactAPI\\ContactAPI.csproj",
+        "packagesPath": "C:\\Users\\Brody\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brody\\Desktop\\Brody TAFE\\TAFE Diploma\\Programming\\Visual Studio\\ContactAPI\\ContactAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Brody\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
