@@ -16,7 +16,8 @@ namespace ContactAPI
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            builder.Services.AddDbContext<ContactAPIDbContext>(options => options.UseInMemoryDatabase("ContactsDb"));
+            builder.Services.AddDbContext<ContactAPIDbContext>(options => 
+            options.UseSqlServer(builder.Configuration.GetConnectionString("ContactsAPIConnectionString")));
 
             var app = builder.Build();
 
